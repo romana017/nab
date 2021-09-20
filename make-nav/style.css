@@ -1,0 +1,19 @@
+.boss{
+    display: flex;
+}
+
+.box{
+    width: 800px;
+    height: 600px;
+    background: red;
+}
+
+.box2{
+    margin-left: 5%;
+    width: 70%;
+    height: 600px;
+    background: rgb(92, 204, 110);
+}
+
+       
+   

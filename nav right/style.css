@@ -1,0 +1,39 @@
+body{
+    background-color: #0a314d;  
+}
+.box{
+    float: right; 
+}
+ul{
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    width: 100%;
+    background-color: turquoise;
+} 
+li{
+    display: inline;
+    margin: 5px;
+    padding: 15px;   
+}
+ li a{ 
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+ }
+ li a:hover{
+    background-color: rgb(38, 35, 73);
+     color: white;
+ }
+ @media only screen and (max-width:600px){
+     li a:hover{
+         background-color: chartreuse;
+         color: black;
+     }
+     ul{
+         padding: 0px;
+         background-color: blueviolet;
+     }
+ }
+ 

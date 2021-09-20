@@ -1,0 +1,30 @@
+.container{
+    display: flex; 
+    background-color: aquamarine;
+    padding: 5px;     
+}
+ .navbar{
+    float: right;;
+    margin-top: 15px;
+}   
+  ul{
+      list-style: none;
+  }
+  li{
+      display: inline;
+       font-size: 25px;  
+  }
+  li a{
+      text-decoration: none;
+      padding: 5px;
+  }
+  li a:hover{
+      background-color: blueviolet;
+      color: white;
+  }
+  @media only screen and (max-width:600px){
+    .container{
+        background-color: yellow;
+        padding: 2px;
+    } 
+  }

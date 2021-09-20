@@ -1,0 +1,41 @@
+
+
+.container{
+      display: flex;
+       justify-content: space-between;
+      background: tomato;
+      padding: 15px 20px;
+  }
+  .navbar{
+
+  }
+  ul{
+    display: flex;
+    
+  }
+  ul li{
+      list-style: none;
+
+  }
+ul li a{
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   margin: 5px;
+
+}
+ul li a:hover{
+   background-color: violet;
+}
+.hhojo{
+   font-size: 35px;
+}
+@media only screen and (max-width:600px){
+    ul li a{
+        font-size: 14px;
+        color: turquoise;
+    }
+    .hhojo{
+        font-size: 22px;
+    }
+}
