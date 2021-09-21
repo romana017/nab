@@ -4,12 +4,6 @@
 body{
     background-color: lightgreen;
 }
-.left-side{
-    
-}
-.right-side{
-   
-}
 h1{
    text-align: center;
    color: red;
@@ -18,15 +12,17 @@ img{
     width: 300px;
     height: 300px;  
 }
-p{
+.para{
     font-size: 22px;
     margin-top: 25px;
     margin-left: 25px;
+    
 }
-@media only screen and(max-width:600px){
-    .right-side{
-        width: 400px;
-        height: 300px;
-        background-color: green;
+
+@media only screen and (max-width:600px){
+    .container{
+        display: block;
     }
+   
+    
 }
